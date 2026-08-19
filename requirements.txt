@@ -1,0 +1,11 @@
+# 私厨 AI 后端依赖（设计报告 §8）
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+python-dotenv>=1.0
+langchain>=1.0
+langchain-openai>=1.0
+langchain-tavily>=0.1.0
+langgraph>=1.0
+langgraph-checkpoint-sqlite>=3.0
+langsmith>=0.1.0

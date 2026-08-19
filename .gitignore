@@ -1,0 +1,40 @@
+# ---- Python ----
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 运行时数据 ----
+data/*.db
+data/*.db-*
+curlerr.txt
+
+# ---- Node / Next.js ----
+web/node_modules/
+web/.next/
+web/out/
+web/tsconfig.tsbuildinfo
+
+# ---- 构建产物（前端静态托管目录由 make web-sync 生成）----
+app/static/
+
+# ---- 敏感信息 ----
+.env
+.env.*
+
+# ---- LangGraph 运行时数据 ----
+.langgraph_api/
+
+# ---- IDE / 系统 ----
+.idea/
+.vscode/
+.workbuddy/
+*.swp
+.DS_Store
+
+# ---- 日志 / 临时 ----
+*.log
+/tmp/
